@@ -1,25 +1,34 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{895D7614-95B4-4714-8D93-80C7588F6B0F}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{895D7614-95B4-4714-8D93-80C7588F6B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{895D7614-95B4-4714-8D93-80C7588F6B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{895D7614-95B4-4714-8D93-80C7588F6B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{895D7614-95B4-4714-8D93-80C7588F6B0F}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9ECB692D-DCAD-401B-AD9A-E8AEE667DEE9}
-	EndGlobalSection
-EndGlobal
+
+
+{ 
+Console.WriteLine("Lütfen bir sayı giriniz:");
+   int sayi = Convert.ToInt32(Console.ReadLine());
+
+
+    if (sayi == 10)
+    {
+        Console.WriteLine("Sayı 10 a eşittir");
+    }
+    else if (sayi<10)
+
+    {
+        Console.WriteLine("Girdiğiniz sayı 10 dan küçüktür"); 
+    }
+    else 
+    {
+    
+        Console.WriteLine("Girilen sayı 10 dan büyüktür");
+    }
+
+
+
+    if (sayi % 2 == 0)
+    {
+        Console.WriteLine("Girilen sayı çifttir"); 
+    }
+
+    else
+    { 
+     Console.WriteLine("Girilen sayı tektir"); 
+     }
+
