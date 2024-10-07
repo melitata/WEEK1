@@ -1,0 +1,85 @@
+{Console.WriteLine("Rüya Manavına Hoşgeldiniz!");
+{
+    string a = "Elma = 2TL";
+    string b = "Armut = 3TL";
+    string c = "Çilek = 2TL";
+    string d = "Muz = 3TL";
+    string e = "Diğer bütün meyveler = 4TL";
+    Console.WriteLine(a + b + c + d + e);
+}
+
+
+
+
+{
+    int elmaFiyat = 2;
+    int armutFiyat = 3;
+    int cilekFiyat = 2;
+    int muzFiyat = 3;
+    int digerFiyat = 4;
+
+
+
+    Console.WriteLine("Hangi meyveyi satın almak istersiniz? (Elma, Armut, Çilek, Muz, Diğer)");
+    string meyve = Console.ReadLine().ToLower();
+
+
+
+    switch (meyve)
+    {
+        case "elma":
+            Console.WriteLine("Elma fiyatı: " + elmaFiyat + " TL");
+            break;
+        case "armut":
+            Console.WriteLine("Armut fiyatı: " + armutFiyat + " TL");
+            break;
+        case "çilek":
+            Console.WriteLine("Çilek fiyatı: " + cilekFiyat + " TL");
+            break;
+        case "muz":
+            Console.WriteLine("Muz fiyatı: " + muzFiyat + " TL");
+            break;
+        case "diğer":
+            Console.WriteLine("Diğer meyvelerin fiyatı: " + digerFiyat + " TL");
+            break;
+        default:
+            Console.WriteLine("Geçersiz meyve seçimi.");
+            break;
+        }
+    }
+}
+
+    Console.WriteLine("Seçtiğiniz meyvenin fiyatı yukarda yazmaktadır");
+ 
+
+
+
+/*if (meyve == "elma")
+{
+    Console.WriteLine("Elma fiyatı: " + elmaFiyat + " TL");
+}
+else if (meyve == "armut")
+{
+    Console.WriteLine("Armut fiyatı: " + armutFiyat + " TL");
+}
+else if (meyve == "çilek")
+{
+    Console.WriteLine("Çilek fiyatı: " + cilekFiyat + " TL");
+}
+else if (meyve == "muz")
+{
+    Console.WriteLine("Muz fiyatı: " + muzFiyat + " TL");
+}
+else if (meyve == "diğer")
+{
+    Console.WriteLine("Diğer meyvelerin fiyatı: " + digerFiyat + " TL");
+}
+else
+{
+    Console.WriteLine("Geçersiz meyve seçimi.");
+}
+*/
+
+
+/*İf seçeneği yapmak zorunda olduğumuz için yaptım mantıklı olan switch seçeneğini kullanmak çünkü daha az karmaşık düzenli 
+ if e yeni koşul eklemek daha zor*/
