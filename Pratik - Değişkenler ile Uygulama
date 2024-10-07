@@ -1,0 +1,57 @@
+{
+    Console.WriteLine("Lütfen aşağıdaki bilgileri giriniz:");
+
+
+
+    {
+        Console.WriteLine("T.C. Kimlik Numaranızı giriniz:");
+        string tcKimlikNo = "";
+        tcKimlikNo = Console.ReadLine();
+        Console.WriteLine("T.C Kimlik Numaranız:" + tcKimlikNo);
+    }
+    {
+        Console.WriteLine("Ad:");
+        string name = "";
+        name = Console.ReadLine();
+        Console.WriteLine("Adınız:" + name);
+        Console.WriteLine("Soyad:");
+        string name1 = "";
+        name1 = Console.ReadLine();
+        Console.WriteLine("Soyadınız" + name1);
+
+    }
+    {
+        char[] numArray = new char[1];
+        Console.WriteLine("Telefon Numarası:");
+        string numInput = Console.ReadLine();
+        Console.WriteLine("Telefon Numaranız:" + numArray);
+
+    }
+    {
+        Console.WriteLine("Yaş:");
+        string yas = "";
+        Console.ReadLine();
+        Console.WriteLine("Yaşındasınız" + yas);
+    }
+    {
+        Console.WriteLine("İlk Aldığı Ürünün Fiyatı:");
+        string budget = "";
+        budget = Console.ReadLine();
+        Console.WriteLine("Aldığınız İlk Ürünün Fiyatı:" + budget);
+    }
+    {
+        char [] budget2Array = new char[1];
+        Console.WriteLine("İkinci Ürünün Fiyatı:");
+        string budget2Input = Console.ReadLine();
+        Console.WriteLine("Aldığınız İkinci Ürünün Fiyatı:" + budget2Array);
+
+    }
+    { Console.WriteLine("TEŞEKKÜRLER");
+    }
+/* char veri tepi güvenlik açısından daha çok tercih edilir Char dizisi kullanmak, bazen veri güvenliğini artırabilir, çünkü diziyi bellekten kolayca temizleyebilir veya şifreleyebilirsiniz.*/
+
+
+
+
+}
+
